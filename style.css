@@ -1,0 +1,44 @@
+*{
+    /*   * is universal selector */
+    margin: 0;
+    padding: 0;
+}
+.nav ul{
+    background-color: rgb(167, 167, 36);
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav li{
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 2px solid rgb(226, 75, 75);
+}
+.nav a{
+    color: rgb(148, 94, 94);
+}
+.nav a:hover{
+    background-color: rgb(66, 207, 181);
+}
+@media screen and {min-width:600px} {
+    .nav li{
+        width: 120px;
+    }  
+}
+.Container .jumbotron{
+    margin: 10px;
+    text-align: center;
+    text-decoration: double;
+    color: rgb(255, 0, 0);
+    background-color: rgb(2, 39, 39);
+}
+.buttons{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.row{
+    padding: 20px;
+}
